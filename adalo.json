@@ -1,0 +1,14 @@
+{
+  "displayName": "Recurring Dates",
+  "components": [
+    {
+      "name": "Recurring",
+      "manifest": "./src/components/Recurring/manifest.json"
+    }
+  ],
+  "author": "CameronBarnes",
+  "description": "This component takes a start and end date, adds recurring dates based on given occurence parameter and returns a list of dates that are published to the database.",
+  "demoAppURL": "https://app.adalo.com/apps/8a983095-c659-48cd-9150-129d5c46e665/screens",
+  "supportURL": "https://www.demoURL.com",
+  "logo": "./example-logo.png"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "createrecurringdates",
+  "description": "This component takes a start and end date, adds recurring dates based on given occurence parameter and returns a list of dates that are published to the database.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "ISC",
+  "author": "CameronBarnes",
+  "scripts": {
+    "start": "adalo dev",
+    "login": "adalo login",
+    "publish": "adalo publish"
+  },
+  "devDependencies": {
+    "@adalo/cli": "^0.0.60",
+    "react": "^16.9.0",
+    "react-art": "^16.6.0",
+    "react-dom": "^16.9.0",
+    "react-native-web": "^0.9.5"
+  },
+  "dependencies": {
+    "react-native-calendar-events": "^2.2.0",
+    "react-native-uuid": "^2.0.2",
+    "react-recurrence": "^0.3.0"
+  }
+}

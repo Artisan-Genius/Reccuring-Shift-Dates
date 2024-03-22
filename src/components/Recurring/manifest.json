@@ -1,0 +1,70 @@
+{
+  "displayName": "recurring",
+  "defaultWidth": 200,
+  "defaultHeight": 24,
+  "components": "./index.js",
+  "icon": "./example-thumbnail.png",
+  "props": [
+    {
+      "name": "text",
+      "displayName": "Text",
+      "type": "text",
+      "default": "Happy Hacking"
+    },
+    {
+      "name": "color",
+      "displayName": "Color",
+      "type": "color",
+      "default": "#00A898"
+    },
+    {
+      "name": "startDate",
+      "displayName": "Start Date",
+      "type": "date",
+      "default": "03/27/2024"
+    },
+    {
+      "name": "endDate",
+      "displayName": "End Date",
+      "type": "date",
+      "default": "03/27/2024"
+    },
+    {
+      "name": "frequency",
+      "displayName": "Frequency",
+      "type": "text",
+      "default": "daily,weekly, etc"
+    },
+    {
+      "name": "occurence",
+      "displayName": "Number of Ocurrence",
+      "type": "text",
+      "default": "daily,weekly, etc"
+    },
+    {
+      "name": "repetitions",
+      "displayName": "Number of Repetitions",
+      "type": "text",
+      "default": "daily,weekly, etc"
+    },
+    {
+      "name": "saveToDatabase",
+      "displayName": "Additional Actions when Example Occurs",
+      "type": "action",
+      "arguments": [
+        {
+          "type": "number",
+          "displayName": "id"
+        },
+        {
+          "type": "date",
+          "displayName": "startDate"
+        },
+        {
+          "type": "date",
+          "displayName": "endDate"
+        }
+      ]
+    }
+  ]
+}
